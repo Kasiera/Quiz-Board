@@ -52,3 +52,7 @@ body{
   background-color: #3e8e41;
   color: green;
 }
+
+.jumbotron{
+  text-align: center;
+}
