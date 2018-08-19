@@ -1,10 +1,107 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="js/scripts.js">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="js/scripts.js"></script>
     <meta charset="utf-8">
-    <title></title>
+    <title>Quiz Board</title>
   </head>
   <body>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            <div class="subject">
+              <form id="myform" method="POST" name="myquiz"><big><big>Quiz Board</big></big>
+            </div>
+            <div class="qheader">
+            1) Which jQuery method do we use to manipulate DOM elements by inversion?</div><br>
+            <div class="qselections">
+            <input type="radio" value="prepend()" name="question1">a) prepend()<br>
+            <input type="radio" value="click()" name="question1">b) click()<br>
+            <input type="radio" value="review()" name="question1">c) review()<br>
+            <input type="radio" value="All the above" name="question1">d) All the above<br>
+            </div><br>
+            <div class="qheader">
+            2) Amongst the conventions below, which is properly named?</div><br>
+            <div class="qselections">
+            <input type="radio" value="lowerCamElcase" name="question2">a) lowerCamElcase<br>
+            <input type="radio" value="lowerCamelCase" name="question2">b) lowerCamelCase<br>
+            <input type="radio" value="Lowercamelcase" name="question2">c) Lowercamelcase<br>
+            <input type="radio" value="lowercamelcase" name="question2">d) lowercamelcase<br>
+            </div><br>
+            <div class="qheader">
+            3) Which JavaScript is can also be referred as client-side JavaScript?</div><br>
+            <div class="qselections">
+            <input type="radio" value="Microsoft" name="question3">a) Microsoft<br>
+            <input type="radio" value="Navigator" name="question3">b) Navigator<br>
+            <input type="radio" value="LiveWire" name="question3">c) LiveWire<br>
+            <input type="radio" value="Nature" name="question3">d) Nature<br>
+            </div><br>
+            <div class="qheader">
+            4) In JavaScript, what can be referred to as a string?</div><br>
+            <div class="qselections">
+            <input type="radio" value="A strand of silk thread used to tie up cables" name="question4">a) A strand of silk thread used to tie up cables<br>
+            <input type="radio" value="A complex set of code" name="question4">b) A complex set of code<br>
+            <input type="radio" value="An indent line" name="question4">c) An indent line<br>
+            <input type="radio" value="A set of characters in quotation marks" name="question4">d) A set of characters in quotation marks<br>
+            </div><br>
+            <div class="qheader">
+            5) Which of the following is not an assignment operator?</div><br>
+            <div class="qselections">
+            <input type="radio" value="+=" name="question5">a) +=<br>
+            <input type="radio" value="-" name="question5">b) -<br>
+            <input type="radio" value="/=" name="question5">c) /=<br>
+            <input type="radio" value="*=" name="question5">d) *=<br>
+            </div><br>
+            <div class="qheader">
+            6) Which of the following is the most appropriate definition of bootstrap?</div><br>
+            <div class="qselections">
+            <input type="radio" value="Laces used to fasten boots" name="question6">a) Laces used to fasten boots<br>
+            <input type="radio" value="A programming function used to come up with variables" name="question6">b) A programming function used to come up with variables<br>
+            <input type="radio" value="A framework used to make websites look pretty" name="question6">c) A framework used to make websites look pretty<br>
+            <input type="radio" value="None of the above" name="question6">d) None of the above<br>
+            </div><br>
+            <div class="qheader">
+            7) Which of the following folders should contain the JavaScript library jQuery during programming?</div>
+            <div class="qselections"><br>
+            <input type="radio" value="css" name="question7">a) css<br>
+            <input type="radio" value="img" name="question7">b) img<br>
+            <input type="radio" value="js" name="question7">c) js<br>
+            <input type="radio" value="All the above" name="question7">d) All the above<br>
+            </div><br>
+            <div class="qheader">
+            8) Which media query option in bootstrap corresponds to desktop?</div>
+            <div class="qselections"><br>
+            <input type="radio" value="sm" name="question8">a) sm<br>
+            <input type="radio" value="lg" name="question8">b) lg<br>
+            <input type="radio" value="xs" name="question8">c) xs<br>
+            <input type="radio" value="md" name="question8">d) md<br>
+            </div><br>
+            <div class="qheader">
+            9) I set margins and paddings according to the user's viewport. What is my name?</div>
+            <div class="qselections"><br>
+            <input type="radio" value="Container" name="question9">a) Container<br>
+            <input type="radio" value="Row" name="question9">b) Row<br>
+            <input type="radio" value="Loop" name="question9">c) Loop<br>
+            <input type="radio" value="Curly Brackets" name="question9">d) Curly Brackets<br>
+            </div><br>
+            <div class="qheader">
+            10) In programing, which of the following could be used to represent a green background color?</div>
+            <div class="qselections"><br>
+            <input type="radio" value="bg-danger" name="question10">a) bg-danger<br>
+            <input type="radio" value="bg-info" name="question10">b) bg-info<br>
+            <input type="radio" value="bg-success" name="question10">c) bg-success<br>
+            <input type="radio" value="bg-warning" name="question10">d) bg-warning<br><br><br>
+            </div>
+            <button type="Submit" name="button" class="btn">Submit Responses</button><br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
