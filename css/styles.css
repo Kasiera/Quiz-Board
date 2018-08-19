@@ -1,0 +1,54 @@
+.container {
+  padding-top: 35px;
+  border-radius: 15px 50px;
+  font-size: 22px;
+  column-rule-color: blue;
+}
+
+.container:hover{
+  background-color: inherit;
+  color: #b77ddb;
+}
+
+.qheader{
+  font:bold 14px Arial;
+  font-weight: bold;
+  text-align: left;justify-content: center;
+  color: blue;
+}
+
+.qselections{
+  font:normal 13px Arial;
+  color: blue;
+  text-align: justify;
+}
+
+.subject{
+  text-align: justify;
+  font-family: arial;
+  font-weight: bolder;
+}
+
+body{
+  width: 100%auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60em;
+}
+
+.btn {
+  background-color: #ddd;
+  border: none;
+  color: blue;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background-color: #3e8e41;
+  color: green;
+}
