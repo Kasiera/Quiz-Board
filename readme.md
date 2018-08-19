@@ -22,7 +22,7 @@ Example output: result (If correct, the user is awarded 10 marks, if wrong, the 
 
 Setup/Installation Requirements
 
-https://github.com/maxwellkimutai/quiz-project
+https://github.com/Kasiera/Quiz-Board
 cd Quiz-Board
 atom
 edit
@@ -41,7 +41,7 @@ JavaScript
 jQuery
 git
 Link To gh-pages
-https://maxwellkimutai.github.io/quiz-project/
+https://kasiera.github.io/Quiz-Board/
 
 Support and contact details
 Contact Samuel Kasiera on +254727651817
