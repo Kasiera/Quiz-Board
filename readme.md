@@ -23,9 +23,9 @@ Example output: result (If correct, the user is awarded 10 marks, if wrong, the 
 # Setup/Installation Requirements
 
 https://github.com/Kasiera/Quiz-Board
-cd Quiz-Board
-atom
-edit
+cd Quiz-Board<br>
+atom<br>
+edit<br>
 run index.html in browser using file path on your computer
 
 # Known Bugs
@@ -34,13 +34,13 @@ None
 
 # Technologies used
 
-Atom
-HTML
-CSS
-JavaScript
-jQuery
-git
-Link To gh-pages
+Atom<br>
+HTML<br>
+CSS<br>
+JavaScript<br>
+jQuery<br>
+git<br>
+# Link To gh-pages
 https://kasiera.github.io/Quiz-Board/
 
 # Support and contact details
